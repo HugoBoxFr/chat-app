@@ -36,7 +36,8 @@ const ContactList = () => (
             <Contact 
                 avatar={contact.avatar}
                 name={contact.name}
-                isOnline={contact.online}
+                online={contact.online}
+                key={contact.name}
             />
         ))}
     </div>
